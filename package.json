@@ -1,7 +1,8 @@
 {
   "name": "roman-integer-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "converter for roman to integer and integer to roman",
+  "repository": "git@github.com/meghaa03/roman-integer-converter.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
