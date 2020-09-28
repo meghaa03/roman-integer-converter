@@ -1,4 +1,4 @@
-import integerToRoman from './integerToRoman.js';
-import romanToInteger from './romanToInteger.js';
+import { getRomanValue } from './integerToRoman.js';
+import { getNumeralValue } from './romanToInteger.js';
 
-export { integerToRoman, romanToInteger }
+export { getRomanValue, getNumeralValue }

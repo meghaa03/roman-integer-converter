@@ -29,7 +29,7 @@ function isInputValid(romanInput) {
     return true;
 }
 
-function getNumeralValue(romanInput) {
+export function getNumeralValue(romanInput) {
 
     if (isInputValid(romanInput)) {
 

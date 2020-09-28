@@ -36,7 +36,7 @@ function isNumericInputValid(numericInput) {
     return true;
 }
 
-function getRomanValue(numericInputValue) {
+export function getRomanValue(numericInputValue) {
     
     if (isNumericInputValid(numericInputValue)) {
         initializeRomanNumeralMapping();

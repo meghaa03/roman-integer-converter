@@ -9,12 +9,11 @@ The package let's you convert a roman number into its corresponding numeric valu
 # Usage
 
 ```
-import intToRoman from './utils/integerToRoman';
-import romanToInt from './utils/romanToInteger';
+import { getRomanValue, getNumeralValue } from 'roman-integer-converter';
 
-romanToInt.getNumeralValue("romanstring");  
-//example romanToInt.getNumeralValue("xiv"); -> gives output 14 (number)
+getNumeralValue("romanstring");  
+//example getNumeralValue("xiv"); -> gives output 14 (number)
 
-intToRoman.getRomanValue(numericValue);
-//example intToRoman.getRomanValue(16); -> gives output XVI (string)
+getRomanValue(numericValue);
+//example getRomanValue(16); -> gives output XVI (string)
 ```
