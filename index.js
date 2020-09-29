@@ -24,7 +24,7 @@ function initializeRomanNumeralMapping() {
 }
 
 function isNumericInputValid(numericInput) {
-    
+
     if (numericInput <= 0) {
         return false;
     }
@@ -37,7 +37,7 @@ function isNumericInputValid(numericInput) {
 }
 
 export function getRomanValue(numericInputValue) {
-    
+
     if (isNumericInputValid(numericInputValue)) {
         initializeRomanNumeralMapping();
         //find greatest base, divide the number by base => quotient -> repeat the base that many times, remainder -> acts as the new input
@@ -112,6 +112,7 @@ function isInputValid(romanInput) {
 
 export function getNumeralValue(romanInput) {
 
+    romanInput = romanInput.toLowerCase();
     if (isInputValid(romanInput)) {
 
         initializeDict();
